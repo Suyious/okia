@@ -12,6 +12,7 @@ section.hero {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
+  background: #000000;
   background: url(./halftone-texture-pattern-abstract-background.jpg);
   min-height: 100vh;
 }
