@@ -103,6 +103,10 @@ section.hero {
   max-width: 90vw;
 }
 
+.keypad{
+  margin-bottom: 2.5em;
+}
+
 .input input {
   max-width: 90vw;
   padding: 1em;
