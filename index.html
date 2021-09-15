@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>KeyPad Chat</title>
+  </head>
+  <body>
+    <nav></nav>
+    <section class="hero">
+      <div class="left"></div>
+      <div class="middle">
+        <div class="mobile">
+          <div class="mobile_top">
+            <div class="speaker">
+              <div class="notch"></div>
+            </div>
+            <div class="logo">
+              <svg width="124" height="23" viewBox="0 0 124 23" fill="none" xmlns="http://www.w3.org/2000/svg" > <g filter="url(#filter0_i)"> <path d="M11.4962 22.3553C9.34444 22.3553 7.39992 21.8914 5.66269 20.9636C3.94519 20.0357 2.59292 18.7624 1.60585 17.1436C0.638527 15.5051 0.154866 13.6692 0.154866 11.6358C0.154866 9.60247 0.638527 7.7764 1.60585 6.15761C2.59292 4.51908 3.94519 3.2359 5.66269 2.30806C7.39992 1.38022 9.34444 0.916298 11.4962 0.916298C13.648 0.916298 15.5827 1.38022 17.3002 2.30806C19.0177 3.2359 20.37 4.51908 21.357 6.15761C22.3441 7.7764 22.8376 9.60247 22.8376 11.6358C22.8376 13.6692 22.3441 15.5051 21.357 17.1436C20.37 18.7624 19.0177 20.0357 17.3002 20.9636C15.5827 21.8914 13.648 22.3553 11.4962 22.3553ZM11.4962 18.2689C12.7202 18.2689 13.8257 17.9925 14.8128 17.4398C15.7998 16.8673 16.5698 16.0776 17.1225 15.0708C17.695 14.064 17.9813 12.919 17.9813 11.6358C17.9813 10.3526 17.695 9.20764 17.1225 8.20084C16.5698 7.19403 15.7998 6.41425 14.8128 5.86149C13.8257 5.28899 12.7202 5.00275 11.4962 5.00275C10.2723 5.00275 9.16677 5.28899 8.1797 5.86149C7.19264 6.41425 6.41286 7.19403 5.84036 8.20084C5.2876 9.20764 5.01122 10.3526 5.01122 11.6358C5.01122 12.919 5.2876 14.064 5.84036 15.0708C6.41286 16.0776 7.19264 16.8673 8.1797 17.4398C9.16677 17.9925 10.2723 18.2689 11.4962 18.2689ZM48.7999 13.8567L46.0164 16.7587V22H41.2488V1.27164H46.0164V10.9547L55.1961 1.27164H60.5262L51.9387 10.5106L61.0296 22H55.433L48.7999 13.8567ZM77.9746 1.27164H82.7717V22H77.9746V1.27164ZM116.148 17.5582H106.524L104.688 22H99.7727L109.012 1.27164H113.75L123.018 22H117.984L116.148 17.5582ZM114.638 13.9159L111.351 5.97994L108.064 13.9159H114.638Z" fill="#8F8F8F" /> </g> <defs> <filter id="filter0_i" x="0.154907" y="0.91626" width="122.863" height="25.439" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" > <feFlood flood-opacity="0" result="BackgroundImageFix" /> <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" /> <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /> <feOffset dy="4" /> <feGaussianBlur stdDeviation="2" /> <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" /> <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /> <feBlend mode="normal" in2="shape" result="effect1_innerShadow" /> </filter> </defs> </svg>
+            </div>
+          </div>
+          <div class="screen">
+            <div class="screen_title">-------- Text message  ---------</div>
+            <div class="display_text"><h1></h1></div>
+            <div class="screen_options">
+              <p>Send</p>
+              <p>Delete</p>
+            </div>
+            
+          </div>
+          <div class="keypad">
+            <div class="buttons">
+              <div class="buttons_top">
+                <div class="buttons_top_column buttons_top_left">
+                  <button class="button_select"></button>
+                  <button class="button_call">
+                    <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_i)"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.09959 0C2.28316 0 0 2.28316 0 5.09959V10.538C0 12.9521 1.957 14.9091 4.37107 14.9091L5.59082 14.9091V8.38637C5.59082 6.84248 6.84239 5.59091 8.38628 5.59091H32.6135C34.1574 5.59091 35.409 6.84248 35.409 8.38637V14.9091L36.6289 14.9091C39.043 14.9091 41 12.9521 41 10.538V5.09959C41 2.28316 38.7168 0 35.9004 0H5.09959Z" fill="#0D0D0D"/></g><defs><filter id="filter0_i" x="0" y="0" width="42" height="15.9091" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="0.5"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 0.560784 0 0 0 0 0.560784 0 0 0 0 0.560784 0 0 0 0.2 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow"/></filter></defs></svg>                      
+                  </button>
+                </div>
+                <div class="buttons_top_column buttons_top_middle"><button></button></div>
+                <div class="buttons_top_column buttons_top_right">
+                  <button class="button_select BackButton"></button>
+                  <button class="button_call">
+                    <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_i)"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.09959 0C2.28316 0 0 2.28316 0 5.09959V10.538C0 12.9521 1.957 14.9091 4.37107 14.9091L5.59082 14.9091V8.38637C5.59082 6.84248 6.84239 5.59091 8.38628 5.59091H32.6135C34.1574 5.59091 35.409 6.84248 35.409 8.38637V14.9091L36.6289 14.9091C39.043 14.9091 41 12.9521 41 10.538V5.09959C41 2.28316 38.7168 0 35.9004 0H5.09959Z" fill="#0D0D0D"/></g><g filter="url(#filter1_i)"><path d="M9 11C9 9.89543 9.89543 9 11 9H30C31.1046 9 32 9.89543 32 11V15H9V11Z" fill="#0D0D0D"/></g><defs><filter id="filter0_i" x="0" y="0" width="42" height="15.9091" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="0.5"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 0.560784 0 0 0 0 0.560784 0 0 0 0 0.560784 0 0 0 0.2 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow"/></filter><filter id="filter1_i" x="9" y="9" width="24" height="7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="0.5"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 0.3125 0 0 0 0 0.3125 0 0 0 0 0.3125 0 0 0 0.25 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow"/></filter></defs></svg>                      
+                  </button>
+                </div>
+              </div>
+              <div class="buttons_numeric">
+                <div class="buttons_row">
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>1</h1>
+                      <p>.,?!</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>2</h1>
+                      <p>abc</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton right_button">
+                      <p>def</p>
+                      <h1>3</h1>
+                    </button>
+                  </div>
+                </div>
+                <div class="buttons_row">
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>4</h1>
+                      <p>ghi</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>5</h1>
+                      <p>jkl</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton right_button">
+                      <p>mno</p>
+                      <h1>6</h1>
+                    </button>
+                  </div>
+                </div>
+                <div class="buttons_row">
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>7</h1>
+                      <p>pqrs</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>8</h1>
+                      <p>tuv</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton right_button">
+                      <p>wxyz</p>
+                      <h1>9</h1>
+                    </button>
+                  </div>
+                </div>
+                <div class="buttons_row">
+                  <div class="button_cell">
+                    <button>
+                      <h1>*</h1>
+                      <p>+</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="InputButton">
+                      <h1>0</h1>
+                      <p>_</p>
+                    </button>
+                  </div>
+                  <div class="button_cell">
+                    <button class="right_button">
+                      <p> ⇪</p>
+                      <h1>#</h1>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <input type="text" name="input" id="input" class="InputArea" />
+        </div>
+      </div>
+      <div class="right"></div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
